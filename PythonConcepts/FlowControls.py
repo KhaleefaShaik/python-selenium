@@ -2,6 +2,10 @@
 Created on Dec 12, 2019
 @author: Khaleefa Shaik
 In this file will discuss about flow controls in python
+Loop statements
+Conditional statements
+Transfer statements
+
 '''
 
 # Conditional statements in python
@@ -49,3 +53,19 @@ for x in range (100, 200, 2):
 
 for x in range (100, 50, -5):
     print(x)
+
+# Transfer statements
+"""Break, continue
+Can be used only in loops
+Break exit from the loop
+Continue skip the perticular condition
+"""
+
+for x in range (200, 300):
+    if x == 298:
+        break
+    elif x == 250:
+        continue
+    print(x)
+
+# End of flow controls
