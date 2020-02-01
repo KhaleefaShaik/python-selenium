@@ -149,3 +149,16 @@ list3.sort(reverse=True)
 list3.reverse()
 #list3.sort(reverse=False)
 print(list3)
+
+t1 = ((1,2,3),("Khaleefa","Shaik","Sha"),(4,5,6))
+l1=[]
+l2=[]
+l3=[]
+for x, y,z in t1:
+    l1.append(x)
+    l2.append(y)
+    l3.append(z)
+    
+print(l1)
+print(l2)
+print(l3)
