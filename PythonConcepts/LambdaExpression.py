@@ -1,5 +1,5 @@
 """
-Created on Dec 26, 2019
+Created on Feb 1, 2020
 @author: Khaleefa Shaik
 In this file will discuss about lambda expression, filters, map reduce datatypes in python
 1. Lambda expression simply fies the code
